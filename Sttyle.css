@@ -1,3 +1,31 @@
-h1 {
-    background-color: rgb(48, 40, 4);
+@keyframes myfirst {
+    0% {
+        background: rgb(90, 177, 79);
+        left: 0px;
+        top: 0px;
+    }
+
+    25% {
+        background: rgb(231, 253, 105);
+        left: 200px;
+        top: 0px;
+    }
+
+    50% {
+        background: rgb(49, 178, 233);
+        left: 200px;
+        top: 200px;
+    }
+
+    75% {
+        background: rgb(160, 255, 7);
+        left: 0px;
+        top: 200px;
+    }
+
+    100% {
+        background: rgb(255, 98, 0);
+        left: 0px;
+        top: 0px;
+    }
 }
